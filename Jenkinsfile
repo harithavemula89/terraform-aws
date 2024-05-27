@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the GitHub repository
-                git branch: 'main', url: 'https://github.com/harithavemula89/terraform-aws.git'
+                git branch: 'main', url: 'https://github.com/harithavemula89/terraform-aws'
             }
         }
 	
